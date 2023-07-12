@@ -112,6 +112,9 @@ struct dsi_phy_cfg {
 	bool force_clk_lane_hs;
 	enum dsi_phy_type phy_type;
 	unsigned long bit_clk_rate_hz;
+	unsigned long clk_strength;
+	bool cphy_strength;
+	unsigned long phy_voltage;
 };
 
 struct dsi_phy_hw;
